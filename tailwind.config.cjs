@@ -20,6 +20,15 @@ module.exports = {
       fontFamily: {
         Space: ["Space Grotesk", "sans-serif"],
       },
+      backgroundImage: {
+        'mobile': "url('assets/images/bg-main-mobile.png')",
+        'desktop': "url('assets/images/bg-main-desktop.png')",
+        'card-back': "url('assets/images/bg-card-back.png')",
+        'card-front': "url('assets/images/bg-card-front.png')",
+      },
+      height: {
+        '38': '9.5rem',
+      }
     },
   },
   plugins: [],
